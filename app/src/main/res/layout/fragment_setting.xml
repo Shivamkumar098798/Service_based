@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="24dp"
+        android:text="Select Programming Language"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="88dp">
+
+
+        <RadioButton
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="submit" />
+
+        <RadioButton
+            android:id="@+id/AC_reparing"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="AC reparing" />
+
+        <RadioButton
+            android:id="@+id/clining"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+
+            android:text="house clining" />
+
+        <RadioButton
+            android:id="@+id/electritian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="electritian" />
+        <RadioButton
+            android:id="@+id/tifhin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tifhin" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="172dp"
+        android:text="Submit" />
+
+</FrameLayout>
