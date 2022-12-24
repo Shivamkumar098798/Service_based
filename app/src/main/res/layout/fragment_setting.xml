@@ -14,8 +14,9 @@
         android:layout_marginStart="31dp"
         android:layout_marginTop="300dp"
         android:layout_marginEnd="31dp"
+        android:layout_marginLeft="200dp"
         android:layout_marginBottom="24dp"
-        android:text="Select Programming Language"
+        android:text="Select services"
         android:textSize="25dp"
         android:textStyle="bold" />
 
@@ -39,25 +40,25 @@
             android:id="@+id/AC_reparing"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:text="AC reparing" />
+            android:text="AC repairing" />
 
         <RadioButton
             android:id="@+id/clining"
             android:layout_width="219dp"
             android:layout_height="wrap_content"
 
-            android:text="house clining" />
+            android:text="house cleaning" />
 
         <RadioButton
             android:id="@+id/electritian"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="electritian" />
+            android:text="electrician" />
         <RadioButton
             android:id="@+id/tifhin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="tifhin" />
+            android:text="tiffin" />
     </RadioGroup>
 
     <Button
